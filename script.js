@@ -1,4 +1,4 @@
-let b1_c1 = 50;
+let b1_c1 = 0;
 let b1_c2 = 0;
 let b1_c3 = 0;
 let b1_c4 = 0;
@@ -373,6 +373,7 @@ document.querySelector('.jshper_c2').textContent = percentage_c2.toFixed(1) + '%
 document.querySelector('.jshper_bi1').textContent = percentage_bi1.toFixed(1) + '%'
 document.querySelector('.jshper_bi2').textContent = percentage_bi2.toFixed(1) + '%'
 document.querySelector('.jshper_ict').textContent = percentage_ict.toFixed(1) + '%'
+
 
 
 
