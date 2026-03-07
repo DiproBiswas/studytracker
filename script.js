@@ -46,7 +46,7 @@ let b2_c16 = 0;
 let b2_c17 = 0;
 let b2_c18 = 0;
 let b2_c19 = 0;
-let b2_c20 = 0;
+let b2_c20 = 25;
 
 
 let e1_c1 = 0;
@@ -373,6 +373,7 @@ document.querySelector('.jshper_c2').textContent = percentage_c2.toFixed(1) + '%
 document.querySelector('.jshper_bi1').textContent = percentage_bi1.toFixed(1) + '%'
 document.querySelector('.jshper_bi2').textContent = percentage_bi2.toFixed(1) + '%'
 document.querySelector('.jshper_ict').textContent = percentage_ict.toFixed(1) + '%'
+
 
 
 
