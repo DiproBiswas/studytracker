@@ -701,9 +701,10 @@ font-size: 18px;
 }
 @media (max-width: 520px) {
   .subject_b1, .subject_b2, .subject_e1, .subject_e2, .subject_m1, .subject_m2, .subject_p1, .subject_p2, .subject_c1, .subject_c2, .subject_bi1, .subject_bi2, .subject_ict {
-  margin: 80px 5px;
+  margin: 80px 2px;
   }
 }
+
 
 
 
