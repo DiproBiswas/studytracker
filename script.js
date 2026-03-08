@@ -80,7 +80,7 @@ let e2_c15 = 0;
 let e2_c16 = 0;
 
 
-let m1_c1 = 0;
+let m1_c1 = 2;
 let m1_c2 = 0;
 let m1_c3 = 0;
 let m1_c4 = 0;
@@ -145,7 +145,7 @@ let c2_c5 = 0;
 
 
 let bi1_c1 = 0;
-let bi1_c2 = 0;
+let bi1_c2 = 1;
 let bi1_c3 = 0;
 let bi1_c4 = 0;
 let bi1_c5 = 0;
@@ -158,7 +158,7 @@ let bi1_c11 = 0;
 let bi1_c12 = 0;
 
 
-let bi2_c1 = 0;
+let bi2_c1 = 1;
 let bi2_c2 = 0;
 let bi2_c3 = 0;
 let bi2_c4 = 0;
@@ -175,7 +175,7 @@ let bi2_c12 = 0;
 let ict_c1 = 0;
 let ict_c2 = 0;
 let ict_c3 = 0;
-let ict_c4 = 0;
+let ict_c4 = 5;
 let ict_c5 = 0;
 let ict_c6 = 0;
 
@@ -373,6 +373,7 @@ document.querySelector('.jshper_c2').textContent = percentage_c2.toFixed(1) + '%
 document.querySelector('.jshper_bi1').textContent = percentage_bi1.toFixed(1) + '%'
 document.querySelector('.jshper_bi2').textContent = percentage_bi2.toFixed(1) + '%'
 document.querySelector('.jshper_ict').textContent = percentage_ict.toFixed(1) + '%'
+
 
 
 
