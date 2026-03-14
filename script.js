@@ -1,5 +1,5 @@
 let b1_c1 = 0;
-let b1_c2 = 0;
+let b1_c2 = 5;
 let b1_c3 = 0;
 let b1_c4 = 0;
 let b1_c5 = 0;
@@ -172,7 +172,7 @@ let bi2_c11 = 0;
 let bi2_c12 = 0;
 
 
-let ict_c1 = 0;
+let ict_c1 = 5;
 let ict_c2 = 0;
 let ict_c3 = 0;
 let ict_c4 = 5;
