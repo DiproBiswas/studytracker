@@ -267,7 +267,7 @@ color: #671e94;
 }
 
 .big_digit, .big_digit_b1, .big_digit_b2, .big_digit_e1,.big_digit_e2, .big_digit_m1, .big_digit_m2, .big_digit_p1, .big_digit_p2, .big_digit_c1, .big_digit_c2, .big_digit_bi1, .big_digit_bi2, .big_digit_ict, .big_percentage, .big_percentage_b1, .big_percentage_b2, .big_percentage_e1, .big_percentage_e2, .big_percentage_m1, .big_percentage_m2, .big_percentage_p1, .big_percentage_p2, .big_percentage_c1, .big_percentage_c2, .big_percentage_bi1, .big_percentage_bi2, .big_percentage_ict   {
-font-size: 50px;
+font-size: 80px;
  background-image: linear-gradient(to right top, #8188c1, #8a8bce, #948ddb, #a18ee7, #af8ff2, #ba91f7, #c592fb, #d194ff, #d998ff, #e19dff, #e9a1ff, #f0a6ff); 
 background-clip: text;
   -webkit-text-fill-color: transparent;
