@@ -49,20 +49,20 @@ let b2_c19 = 0;
 let b2_c20 = 0;
 
 
-let e1_c1 = 0;
-let e1_c2 = 0;
-let e1_c3 = 0;
-let e1_c4 = 0;
+let e1_c1 = 5;
+let e1_c2 = 5;
+let e1_c3 = 5;
+let e1_c4 = 5;
 let e1_c5 = 0;
-let e1_c6 = 0;
-let e1_c7 = 0;
-let e1_c8 = 0;
+let e1_c6 = 5;
+let e1_c7 = 5;
+let e1_c8 = 5;
 let e1_c9 = 0;
 let e1_c10 = 0;
 let e1_c11 = 0;
 
 
-let e2_c1 = 0;
+let e2_c1 = 5;
 let e2_c2 = 0;
 let e2_c3 = 0;
 let e2_c4 = 0;
@@ -73,7 +73,7 @@ let e2_c8 = 0;
 let e2_c9 = 0;
 let e2_c10 = 0;
 let e2_c11 = 0;
-let e2_c12 = 0;
+let e2_c12 = 5;
 let e2_c13 = 0;
 let e2_c14 = 0;
 let e2_c15 = 0;
