@@ -619,8 +619,39 @@ transform: scale(1.08);
   text-align: center;
   color: #000000;
 }
+.timesleft {
+    background-color: #ebe6e6;
+    padding: 20px;
+  border-radius: 25px;
+  margin: 15px;
 
-
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  
+}
+.timesleft_heading {
+font-size: 25px;
+}
+  .deadline {
+font-size: 30px;
+}
+.deadline_sideside {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.ttimesleft_heading {
+  margin-right: 6%;
+  margin-left: 6%;
+  
+}
+.ddeadline {
+  font-size: 80px;
+}
+.ttimesleft_heading {
+  font-size: 25px;
+}
 
 
 
@@ -666,7 +697,9 @@ transform: scale(1.08);
 .chapter_list {
   margin-left: 30px;
 }
-
+.deadline_sideside {
+  
+}
 }
 
 
@@ -698,52 +731,14 @@ font-size: 18px;
 .subject_page_hero_image {
   height: 350px;
 }
+.timesleft_heading {
+font-size: 18px;
+}
+.deadline {
+font-size: 20px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.ddeadline {
+  font-size: 50px;
+}
+}
