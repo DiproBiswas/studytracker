@@ -1,3 +1,4 @@
+
 let b1_c1 = 0;
 let b1_c2 = 5;
 let b1_c3 = 0;
@@ -192,8 +193,8 @@ let totalstars_b1 = 130;
 let totalstars_b2 = 100;
 let totalstars_e1 = 65;
 let totalstars_e2 = 80;
-let totalstars_m1 = 50;
-let totalstars_m2 = 50;
+let totalstars_m1 = 100;
+let totalstars_m2 = 100;
 let totalstars_p1 = 100;
 let totalstars_p2 = 110;
 let totalstars_c1 = 50;
@@ -238,7 +239,7 @@ let percentage_bi2 = (collectedstars_bi2 * 100) / totalstars_bi2;
 let percentage_ict = (collectedstars_ict * 100) / totalstars_ict;
 
 
-let grandtotalstars = 935;
+let grandtotalstars = 1035;
 let grandtotalcollectedstars = collectedstars_b1 + collectedstars_b2 + collectedstars_e1 + collectedstars_e2 +
                                collectedstars_m1 + collectedstars_m2 + collectedstars_p1 + collectedstars_p2 +
                                collectedstars_c1 + collectedstars_c2 + collectedstars_bi1 + collectedstars_bi2 +
@@ -249,6 +250,7 @@ let grandtotal_percentage = (grandtotalcollectedstars * 100) / grandtotalstars
 
 let pqsel = document.querySelector('.big_percentage')
 let dqsel = document.querySelector('.big_digit')
+let deqsel = document.querySelector('.deqsel')
 let pqsel_b1 = document.querySelector('.big_percentage_b1')
 let dqsel_b1 = document.querySelector('.big_digit_b1')
 let pqsel_b2 = document.querySelector('.big_percentage_b2')
@@ -341,10 +343,13 @@ else if(pqsel) {
     dqsel.textContent = grandtotalcollectedstars + '/' + grandtotalstars
     pqsel.textContent = grandtotal_percentage.toFixed(1) + '%'
 }
+
 else {
     
 }
-
+if(deqsel) {
+    deqsel.textContent = grandtotal_percentage.toFixed(1) + '%'
+}
 
 
 document.querySelector('.jshstar_b1').textContent = collectedstars_b1 + '/'+ totalstars_b1
@@ -374,13 +379,24 @@ document.querySelector('.jshper_bi1').textContent = percentage_bi1.toFixed(1) + 
 document.querySelector('.jshper_bi2').textContent = percentage_bi2.toFixed(1) + '%'
 document.querySelector('.jshper_ict').textContent = percentage_ict.toFixed(1) + '%'
 
+setInterval(function() {let deadlinee = new Date('Dec 31, 2026 23:59:59').getTime()
+let datee = new Date().getTime()
+let datespan = document.querySelector('.datespan')
+let lefttime = deadlinee - datee
+ var days = Math.floor(lefttime / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((lefttime % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((lefttime % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((lefttime % (1000 * 60)) / 1000);
+datespan.innerText = days + ' Days ' + hours + ' Hours ' + minutes + ' Minutes ' + seconds + ' Seconds ' 
+}, 1000)
+let start = new Date('Jan 1, 2026 00:00:00').getTime();
+let now = new Date().getTime();
+let deadline = new Date('Dec 31, 2026 23:59:59').getTime();
 
+let remaining = ((deadline - now) / (deadline - start)) * 100;
+remaining = Math.max(0, remaining.toFixed(2));
 
-
-
-
-
-
+document.querySelector('.remaining').innerText = remaining + "%";
 
 
 
