@@ -734,6 +734,9 @@ font-size: 18px;
 .timesleft_heading {
 font-size: 20px;
 }
+.ttimesleft_heading {
+font-size: 15px;
+}
 .deadline {
 font-size: 20px;
 }
