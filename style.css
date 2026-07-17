@@ -732,13 +732,13 @@ font-size: 18px;
   height: 350px;
 }
 .timesleft_heading {
-font-size: 18px;
+font-size: 20px;
 }
 .deadline {
 font-size: 20px;
 }
 
 .ddeadline {
-  font-size: 50px;
+  font-size: 30px;
 }
 }
