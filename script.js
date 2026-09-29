@@ -29,15 +29,15 @@ let b1_c26 = 5;
 
 
 let b2_c1 = 0;
-let b2_c2 = 0;
+let b2_c2 = 5;
 let b2_c3 = 0;
 let b2_c4 = 0;
 let b2_c5 = 0;
 let b2_c6 = 0;
 let b2_c7 = 5;
 let b2_c8 = 0;
-let b2_c9 = 0;
-let b2_c10 = 0;
+let b2_c9 = 5;
+let b2_c10 = 5;
 let b2_c11 = 0;
 let b2_c12 = 0;
 let b2_c13 = 5;
@@ -45,7 +45,7 @@ let b2_c14 = 5;
 let b2_c15 = 5;
 let b2_c16 = 0;
 let b2_c17 = 0;
-let b2_c18 = 0;
+let b2_c18 = 5;
 let b2_c19 = 0;
 let b2_c20 = 0;
 
