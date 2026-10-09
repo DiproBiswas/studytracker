@@ -38,15 +38,15 @@ let b2_c7 = 5;
 let b2_c8 = 0;
 let b2_c9 = 5;
 let b2_c10 = 5;
-let b2_c11 = 0;
-let b2_c12 = 0;
+let b2_c11 = 5;
+let b2_c12 = 5;
 let b2_c13 = 5;
 let b2_c14 = 5;
 let b2_c15 = 5;
 let b2_c16 = 0;
 let b2_c17 = 0;
 let b2_c18 = 5;
-let b2_c19 = 0;
+let b2_c19 = 5;
 let b2_c20 = 0;
 
 
