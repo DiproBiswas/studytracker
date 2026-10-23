@@ -59,8 +59,10 @@ let e1_c6 = 5;
 let e1_c7 = 5;
 let e1_c8 = 5;
 let e1_c9 = 0;
-let e1_c10 = 0;
+let e1_c10 = 5;
 let e1_c11 = 0;
+let e1_c12 = 5;
+let e1_c13 = 0;
 
 
 let e2_c1 = 5;
